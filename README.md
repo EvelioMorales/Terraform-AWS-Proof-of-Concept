@@ -2,23 +2,23 @@
 
 Same as [AWS Proof of Concept](https://github.com/EvelioMorales/AWS-Proof-of-Concept/tree/main) this project will consist of basic infrastructure on AWS to host a Proof of Concept environment. The architecture will include both public and private subnets and span multiple Availability Zones to test failover and disaster recovery scenarios. This project will host Internet-facing applications and other applications that need to access the Internet to retrive security and operating system updates. The difrence will be that this project will be done in *__'Terraform'__*.
 
-![Diagram]()
+![Diagram](https://github.com/EvelioMorales/Terraform-AWS-Proof-of-Concept/blob/main/Terrafrom%20PoC%20Images/PoCdiagram.png)
 
 # 1. Create a Folder 
 
 I will start by creating a __New Folder__ and naming it *__'AWS_PoC_Terrafrom'__*.
 
-![Name Folder]()
+![Name Folder](https://github.com/EvelioMorales/Terraform-AWS-Proof-of-Concept/blob/main/Terrafrom%20PoC%20Images/Name%20Folder.png)
 
 # 2. Open Folder in VSCode and create files 
 
 In VSCode I will open *__'AWS_PoC_Terrafrom'__* folder. 
 
-![open folder]()
+![open folder](https://github.com/EvelioMorales/Terraform-AWS-Proof-of-Concept/blob/main/Terrafrom%20PoC%20Images/open%20folder.png)
 
 Next I will createa 2 files one I will name *__main.tf__* and the other *__variables.tf__*.
 
-![files created]()
+![files created](https://github.com/EvelioMorales/Terraform-AWS-Proof-of-Concept/blob/main/Terrafrom%20PoC%20Images/files%20created.png)
 
 # 3. Add code to files
 
